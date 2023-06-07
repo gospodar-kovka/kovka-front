@@ -1,0 +1,47 @@
+.cart-content-wrapper {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 180px;
+	padding-bottom: 130px;
+}
+
+.cart-title {
+	font-family: "Inter";
+	font-weight: 500;
+}
+
+.cart-loader {
+	align-self: center;
+}
+
+.empty-cart-title {
+	font-family: "Inter";
+	font-weight: 500;
+	text-align: center;
+}
+
+.cart-products-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.cart-make-order-wrapper {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #F7F8FA;
+	padding: 10px 10px 10px 10px;
+	gap: 10px;
+	font-size: 20px;
+}
+
+@media (max-width: 440px) {
+	.cart-make-order-wrapper {
+		flex-direction: column-reverse;
+	}
+}

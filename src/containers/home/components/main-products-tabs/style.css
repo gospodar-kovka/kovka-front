@@ -1,0 +1,31 @@
+.product-tabs-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 40px;
+}
+
+.product-tab {
+	padding: 8px;
+	cursor: pointer;
+	transition: 0.5s all;
+	display: flex;
+	align-items: center;
+}
+
+.product-tab-active {
+	box-shadow: 0px 2px 0px #038053;
+}
+
+.product-tab-text {
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #9A9CAA;
+	text-align: center;
+}
+
+.product-tab-text-active {
+	color: #000 !important;
+}

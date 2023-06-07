@@ -1,0 +1,151 @@
+.product-page-wrapper {
+	min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.product-page-type-of-doors-wrapper {
+	display: flex;
+	gap: 30px;
+	width: 100%;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+
+.product-page-door-type {
+	width: 45%;
+	padding: 10px;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	min-width: 200px;
+	border: 1px solid #EEF0F4;
+	border-radius: 5px;
+}
+
+.product-door-left-opening-photo {
+	transform: scaleX(-1);
+}
+
+.product-page-door-type:focus {
+	outline: none;
+}
+
+.product-paga-content-wrapper {
+	display: flex;
+	justify-content: center;
+	padding-top: 180px;
+	width: 100%;
+}
+
+.product-page-photo-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 467px;
+	max-height: 467px;
+	margin-right: 40px;
+}
+
+.product-page-description {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	border: none;
+	resize: none;
+	color: black;
+	background-color: white;
+	margin-top: 20px;
+	min-height: 222px;
+	opacity: 1;
+}
+
+@media (max-width: 933px) {
+	.product-page-photo-wrapper {
+		margin-right: 0px;
+	}
+	.product-paga-content-wrapper {
+		flex-direction: column;
+		align-items: center
+	}
+
+	.product-page-description {
+		min-height: 0px;
+	}
+
+	.product-page-door-type {
+		width: 100%;
+	}
+}
+
+.product-page-photo {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.product-foreground-page-photo {
+	object-fit: revert;
+}
+
+@media (max-width: 500px) {
+	.product-foreground-page-photo {
+		width: 90%;
+	}
+}
+
+.product-page-title {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 24px;
+	color: #007580;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.product-page-content-description {
+	display: flex;
+	flex-direction: column;
+	width: 40%
+
+}
+
+@media (max-width: 933px) {
+	.product-page-content-description {
+		width: 80%
+	}
+}
+
+.product-buy-buttons-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.product-page-price {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.product-page-cart-button {
+	margin-top: 20px
+}
+
+.product-page-buy-button {
+	background: green;
+}
+
+.product-page-pods-label {
+	line-height: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #029FAE;
+}
+
+.product-page-door-classes-description {
+	color: #029FAE
+}
